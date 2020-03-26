@@ -1,0 +1,8 @@
+server:
+  port: ${NUMBER_PORT}
+spring:
+  autoconfigure:
+    exclude: ${SERIAL_EXCLUDE}
+  data:
+    mongodb:
+      uri: ${DB_URI}
